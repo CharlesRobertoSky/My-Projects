@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -11,11 +11,66 @@
     <section class="container">
       <article>
         <h1>Criador de Border radius</h1>
-        <div class="bdr-rds">
-          <div class="btn-line"><input class='button radio-1' type="number"> <input class='button radio-2' type="number"></div>
-          <div class="create-border"></div>
-          <div class="btn-line"><input class='button radio-4' type="number"> <input class='button radio-3' type="number"></div>
-          </p>
+
+        <div class="border-radius">
+          <div class="input-radius">
+            <label for="radius">
+              <p>Canto superior esquerdo</p>
+              <div class="radius-container">
+                <input
+                  type="range"
+                  id="radio1"
+                  class="radio"
+                  min="0"
+                  max="100"
+                  value="0"
+                  oninput="radiusBorder()"
+                />
+              </div>
+
+              <p>Canto superior direito</p>
+              <div class="radius-container">
+                <input
+                  type="range"
+                  id="radio2"
+                  class="radio"
+                  min="0"
+                  max="100"
+                  value="0"
+                  oninput="radiusBorder()"
+                />
+              </div>
+
+              <p>Canto inferior esquerdo</p>
+              <div class="radius-container">
+                <input
+                  type="range"
+                  id="radio3"
+                  class="radio"
+                  min="0"
+                  max="100"
+                  value="0"
+                  oninput="radiusBorder()"
+                />
+              </div>
+
+              <p>Canto inferior direito</p>
+              <div class="radius-container">
+                <input
+                  type="range"
+                  id="radio4"
+                  min="0"
+                  max="100"
+                  value="0"
+                  class="radio"
+                  oninput="radiusBorder()"
+                />
+              </div>
+            </label>
+          </div>
+          <div class="create-border">
+            <p>0% 0% 0% 0%</p>
+          </div>
         </div>
       </article>
     </section>
