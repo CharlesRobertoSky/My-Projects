@@ -1,0 +1,46 @@
+:root {
+  --color2: #2c3e50;
+  --color1: #bdc3c7;
+  --color3: #24243e;
+  --font-color: rgb(182, 182, 182);
+}
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: var(--color2);
+}
+.container {
+  text-align: center;
+  background-color: var(--color1);
+  width: 600px;
+  margin: 30px auto;
+  padding: 30px;
+  font-size: 1.2em;
+  border-radius: 10px;
+}
+.bdr-rds {
+  display: grid;
+  justify-content: center;
+}
+.create-border {
+  width: 200px;
+  height: 200px;
+  background-color: var(--color3);
+}
+.btn-line {
+  display: flex;
+  justify-content: space-between;
+}
+.button {
+  text-align: center;
+  width: 40px;
+  height: 30px;
+  margin: 10px -20px;
+  font-size: 1.3em;
+  justify-content: space-evenly;
+}
