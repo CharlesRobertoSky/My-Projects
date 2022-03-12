@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  border: 0;
+  width: 0;
+  box-sizing: border-box;
+  outline: 0;
+}
+.calendario {
+}
+.table-flex {
+  display: flex;
+}
+
+tr {
+  background-color: #afafaf;
+  transition: 0.2s;
+}
+th:hover {
+  background-color: #a1a1a1;
+  cursor: pointer;
+}
